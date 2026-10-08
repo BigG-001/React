@@ -30,4 +30,10 @@ export default SignUpForm;
 //     </div>
 //   )
 // }
-// export default Form;
+// export default Form;s
+
+
+
+
+
+

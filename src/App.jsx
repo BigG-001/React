@@ -4,6 +4,7 @@ import Profile from "./Component/profile";
 import Cities from "./Component/list";
 import './Component/list.css'
 import SignUpForm from'./Component/form';
+import MyTodo from "./Component/todo-list";
 
 function App(){
     // initialize ths state counter 0
@@ -55,6 +56,7 @@ function App(){
           <Cities/>
         
           <SignUpForm/>
+          <MyTodo/>
       </div> 
 
     )
