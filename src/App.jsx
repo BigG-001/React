@@ -5,6 +5,9 @@ import Cities from "./Component/list";
 import './Component/list.css'
 import SignUpForm from'./Component/form';
 import MyTodo from "./Component/todo-list";
+import SideEffect from "./Component/effect";
+import MoviesCard from "./Component/movieCard";
+
 
 function App(){
     // initialize ths state counter 0
@@ -52,11 +55,13 @@ function App(){
             <button className="decrement" onClick={decrement}>Decrement</button>
             <button className="reset" onClick={reset}>Reset</button>
           </div>
-          <Profile/>
+          {/* <Profile/>
           <Cities/>
         
           <SignUpForm/>
           <MyTodo/>
+          <SideEffect/> */}
+          <MoviesCard/>
       </div> 
 
     )
